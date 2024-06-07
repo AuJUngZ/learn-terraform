@@ -1,0 +1,23 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.tfbackup
+
+# Ignore any files containing sensitive information
+*.tfvars
+
+# Ignore the .terraform directory
+**/.terraform/*
+
+# Ignore override files as they're usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore the .terraformrc file as it contains sensitive credentials
+.terraformrc
+
+# Ignore .tfplan files
+*.tfplan
